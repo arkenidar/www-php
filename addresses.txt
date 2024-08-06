@@ -1,0 +1,6 @@
+http://localhost:8080/index.php
+http://localhost:8080/json.php
+http://localhost:8080/sql-person.php
+http://localhost:8080/sql-sign-in.php?nickname=dario&password=bliss
+http://localhost:8080/sql-sign-in.php?nickname=root&password=strong-password
+http://localhost:8080/sql-sign-out.php

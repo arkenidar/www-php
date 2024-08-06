@@ -1,0 +1,2 @@
+# source start.txt
+php -t www -S localhost:8080
