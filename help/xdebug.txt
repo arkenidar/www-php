@@ -1,0 +1,30 @@
+xdebug allows local and remote debugging of php .
+
+use the following lines in a shell like GNU BASH .
+
+# install xdebug to debug php
+sudo apt install php-xdebug
+# uses apt of Debian and Ubuntu derivatives
+# or other installation instructions
+
+# see the exact xdebug.ini
+php --ini
+
+# having that edit such xdebug.ini
+code /etc/php/8.3/cli/conf.d/20-xdebug.ini
+# with vscode or other text editor
+
+configuration of ini settings :
+( xdebug.ini should have these lines )
+
+zend_extension=xdebug.so
+xdebug.start_with_request = yes
+xdebug.mode = debug
+xdebug.remote_handler = dbgp
+xdebug.client_host = 127.0.0.1
+xdebug.log = /tmp/xdebug_remote.log
+xdebug.client_port = 9003
+
+now launch with debug in vscode .
+you can set "breakpoints" to check it .
+vscode should use the same port above ( xdebug.client_port ) .
