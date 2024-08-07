@@ -1,0 +1,8 @@
+dbeaver : database client ( java based and generic )
+https://dbeaver.io/
+
+java jdk ( optional for our case , maybe needed by dbeaver )
+https://www.oracle.com/java/technologies/downloads/
+
+sqlite browser ( specific )
+https://sqlitebrowser.org/
