@@ -1,0 +1,10 @@
+prepare mysql server
+
+- download and install
+https://dev.mysql.com/downloads/
+https://dev.mysql.com/downloads/mysql/
+
+- I created a user with credentials:
+"username" and "password" as respective
+
+- in its shell , execute create.sql file
