@@ -1,2 +1,2 @@
 <?php
-require_once('postgresql.php');
+require_once('sqlite.php');
