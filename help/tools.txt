@@ -6,3 +6,6 @@ https://www.oracle.com/java/technologies/downloads/
 
 sqlite browser ( specific )
 https://sqlitebrowser.org/
+
+postman http client
+https://www.postman.com/
